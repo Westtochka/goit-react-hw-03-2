@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <foter>
+    <footer>
       <span> &copy; All right reserved</span>
       <div>Only one</div>
-    </foter>
+    </footer>
   );
 };
 

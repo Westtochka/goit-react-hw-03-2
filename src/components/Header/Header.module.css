@@ -1,0 +1,15 @@
+/* .title {
+  color: red;
+}
+.text {
+  background-color: springgreen;
+} */
+.icon {
+  width: 35px;
+  height: 35px;
+  & :hover {
+    color: gold;
+    width: 105px;
+    height: 105px;
+  }
+}

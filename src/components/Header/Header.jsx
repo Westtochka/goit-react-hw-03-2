@@ -1,10 +1,17 @@
+import clsx from "clsx";
+import s from "./Header.module.css";
+import { FcGlobe } from "react-icons/fc";
+
 const Header = () => {
   return (
-    <header>
+    <header className={s.header}>
       <div>Logo</div>
-      <nav>
+      <nav className={clsx(s.title, s.text)}>
         <ul>
-          <li>Home</li>
+          <li>
+            <FcGlobe className={s.icon} />
+            Home
+          </li>
           <li>About</li>
           <li>Profile</li>
         </ul>
